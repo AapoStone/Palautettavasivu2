@@ -29,56 +29,43 @@ body {
   border: 3px solid chocolate;
 }
 
-#carouselExampleFade {
-  width: 40em;
-  margin-top: 10em;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10em;
-}
-.carousel-inner {
-  height: 40em;
-  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
-}
-
-#carousel-image {
-  height: 40em;
-}
 #brand-image {
   height: 3em;
 }
-h5,
-p {
+p,
+h1 {
   color: chocolate;
   font-size: 2em;
   text-shadow: black 3px 0px 0px;
   font-weight: bold;
 }
+#headerteksti {
+  margin-top: 3em;
+  float: left;
+}
+#accordion {
+  margin-top: 3em;
+  float: left;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 5em;
+  overflow-x: hidden;
+}
+.accordion-item,
+#flush-headingThree {
+  border-bottom: 3px solid black;
+  background-color: #a88724;
+}
+.accordion-button,
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+  background-color: saddlebrown;
+  box-shadow: none;
+  font-weight: bold;
+}
+
 @media (max-width: 767px) {
-  #carouselExampleFade {
-    width: 20em;
-  }
-  .carousel-inner {
-    height: 20em;
-  }
-  #carousel-image {
-    height: 20em;
-  }
 }
 
 @media (max-width: 353px) {
-  #carouselExampleFade {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .carousel-inner {
-    height: 20em;
-  }
-  #carousel-image {
-    height: 20em;
-  }
-  .col-12 {
-    padding: 0;
-  }
 }

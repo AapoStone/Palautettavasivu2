@@ -47,33 +47,36 @@ h3 {
   margin-top: 10em;
   text-align: center;
 }
-h1{
-    color: chocolate;
-    font-weight: bold;
-    border-bottom: 3px solid black;
-    text-shadow: black 3px 0px 0px;
+h1 {
+  color: chocolate;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  text-shadow: black 3px 0px 0px;
 }
 .card {
   background-color: #a88724;
   height: 35em;
   margin: 0 auto;
-
 }
-#button1, #button2, #button3{
-    background-color: black;
-    color: chocolate;
-    border-color: chocolate;
-    
-
+#button1,
+#button2,
+#button3 {
+  background-color: black;
+  color: chocolate;
+  border-color: chocolate;
 }
-#button1:focus, #button2:focus, #button3:focus{
-    box-shadow: 3px 3px chocolate
+#button1:focus,
+#button2:focus,
+#button3:focus {
+  box-shadow: 3px 3px chocolate;
 }
-#card1, #card2, #card3{
-    visibility: hidden;
+#card1,
+#card2,
+#card3 {
+  visibility: hidden;
 }
-.d-grid{
-    text-align: center;
+.d-grid {
+  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -88,8 +91,10 @@ h1{
     margin-bottom: 5em;
   }
 }
-#button1, #button2, #button3{
-    margin-top: 3em;
+#button1,
+#button2,
+#button3 {
+  margin-top: 3em;
 }
 @media (max-width: 317px) {
   .col-12 {
