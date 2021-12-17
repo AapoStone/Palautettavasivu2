@@ -52,8 +52,10 @@ h1 {
   overflow-x: hidden;
 }
 .accordion-item,
-#flush-headingThree {
+ .accordion-flush {
   border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
   background-color: #a88724;
 }
 .accordion-button,
