@@ -11,7 +11,7 @@ var timesClicked3 = 0;
 function esille1() {
   timesClicked1++;
 
-  if (timesClicked % 2 == 0) {
+  if (timesClicked1 % 2 == 0) {
     card1.style.visibility = "hidden";
   } else {
     card1.style.visibility = "visible";
@@ -20,7 +20,7 @@ function esille1() {
 function esille2() {
   timesClicked2++;
 
-  if (timesClicked % 2 == 0) {
+  if (timesClicked2 % 2 == 0) {
     card2.style.visibility = "hidden";
   } else {
     card2.style.visibility = "visible";
@@ -29,7 +29,7 @@ function esille2() {
 function esille3() {
   timesClicked3++;
 
-  if (timesClicked % 2 == 0) {
+  if (timesClicked3 % 2 == 0) {
     card3.style.visibility = "hidden";
   } else {
     card3.style.visibility = "visible";
