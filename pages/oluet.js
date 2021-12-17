@@ -4,11 +4,12 @@ document.querySelector("#button2").addEventListener("click", esille2);
 document.querySelector("#button3").addEventListener("click", esille3);
 
 //Click laskuri
-var timesClicked = 0;
-
+var timesClicked1 = 0;
+var timesClicked2 = 0;
+var timesClicked3 = 0;
 //Korttien näkyvyys
 function esille1() {
-  timesClicked++;
+  timesClicked1++;
 
   if (timesClicked % 2 == 0) {
     card1.style.visibility = "hidden";
@@ -17,7 +18,7 @@ function esille1() {
   }
 }
 function esille2() {
-  timesClicked++;
+  timesClicked2++;
 
   if (timesClicked % 2 == 0) {
     card2.style.visibility = "hidden";
@@ -26,7 +27,7 @@ function esille2() {
   }
 }
 function esille3() {
-  timesClicked++;
+  timesClicked3++;
 
   if (timesClicked % 2 == 0) {
     card3.style.visibility = "hidden";
