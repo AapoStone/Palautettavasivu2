@@ -1,6 +1,9 @@
 //(Task 5.1) Variables
 $text-color: chocolate;
+$height: 20em;
 //
+
+
 
 html,
 body {
@@ -68,13 +71,13 @@ color: gold;
 
 @media (max-width: 767px) {
   #carouselExampleFade {
-    width: 20em;
+    width: $height;
   }
   .carousel-inner {
-    height: 20em;
+    height: $height;
   }
   #carousel-image {
-    height: 20em;
+    height: $height;
   }
 }
 
@@ -85,10 +88,10 @@ color: gold;
     margin-right: 0;
   }
   .carousel-inner {
-    height: 20em;
+    height: $height;
   }
   #carousel-image {
-    height: 20em;
+    height: $height;
   }
   .col-12 {
     padding: 0;
