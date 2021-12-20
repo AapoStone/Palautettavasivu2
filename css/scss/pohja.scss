@@ -1,3 +1,6 @@
+$text-color: chocolate;
+
+
 html,
 body {
   font-family: papyrus;
@@ -7,7 +10,7 @@ body {
   left: 0;
 }
 body {
-  background: url("images/JOKO.jpg") no-repeat center fixed;
+  background: url("JOKO.jpg") no-repeat center fixed;
   background-size: cover;
 }
 .navbar {
@@ -15,18 +18,18 @@ body {
 }
 
 .nav-link {
-  color: chocolate;
+  color: $text-color;
 }
 .nav-link:hover,
 .nav-link:visited {
-  color: chocolate;
+  color: $text-color;
 }
 #togglericon {
-  color: chocolate;
+  color: $text-color;
   font-size: 1.5em;
 }
 .navbar-toggler {
-  border: 3px solid chocolate;
+  border: 3px solid $text-color;
 }
 
 #carouselExampleFade {
@@ -49,7 +52,7 @@ body {
 }
 h5,
 p {
-  color: chocolate;
+  color: $text-color;
   font-size: 2em;
   text-shadow: black 3px 0px 0px;
   font-weight: bold;
