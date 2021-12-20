@@ -40,7 +40,8 @@ body {
 
 .carousel-inner {
   height: 40em;
-  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border: 5px solid #b36b00;
+  background-color: black;
 }
 
 #brand-image {

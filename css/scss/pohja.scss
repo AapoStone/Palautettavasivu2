@@ -49,7 +49,7 @@ body {
 }
 .carousel-inner {
   height: 40em;
-  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
+  @include border;
 }
 #brand-image {
   height: 3em;
