@@ -36,16 +36,18 @@ body {
   margin-left: auto;
   margin-bottom: 10em;
 }
-#carouselExampleFade .carousel-inner {
+
+.carousel-inner {
   height: 40em;
   box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
-}
-#carouselExampleFade #carousel-image {
-  height: 40em;
 }
 
 #brand-image {
   height: 3em;
+}
+
+#carousel-image {
+  height: 40em;
 }
 
 div > h5 {
@@ -53,6 +55,10 @@ div > h5 {
   font-size: 2em;
   text-shadow: black 3px 0px 0px;
   font-weight: bold;
+}
+
+h5 + p {
+  color: gold;
 }
 
 @media (max-width: 767px) {

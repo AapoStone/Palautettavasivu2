@@ -33,25 +33,22 @@ body {
   border: 3px solid $text-color;
 }
 
-//(Task 5.1) Nesting
 #carouselExampleFade {
   width: 40em;
   margin-top: 10em;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 10em;
-  .carousel-inner {
-    height: 40em;
-    box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
-  }
-  #carousel-image {
-    height: 40em;
-  }
+  margin-bottom: 10em; 
 }
-//
-
+.carousel-inner {
+  height: 40em;
+  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
 #brand-image {
   height: 3em;
+}
+#carousel-image {
+  height: 40em;
 }
 
 //(Task 5.1) Selectorin > lisäys
@@ -60,6 +57,12 @@ div > h5{
   font-size: 2em;
   text-shadow: black 3px 0px 0px;
   font-weight: bold;
+}
+//
+
+//(Task 5.1) Selectorin + lisäys
+h5 + p{
+color: gold;
 }
 //
 
@@ -91,3 +94,4 @@ div > h5{
     padding: 0;
   }
 }
+
