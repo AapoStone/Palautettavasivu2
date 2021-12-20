@@ -2,8 +2,12 @@
 $text-color: chocolate;
 $height: 20em;
 //
-
-
+//(Task 5.1) Mixing
+@mixin border ($border: #b36b00 ) {
+  border: 5px solid $border;
+  background-color: black;
+}
+//
 
 html,
 body {
@@ -20,7 +24,7 @@ body {
 
 //(Task 5.1) Nesting
 .navbar {
-  background-color: black;
+  @include border;
   .nav-link,.nav-link:hover,
   .nav-link:visited {
     color: $text-color;

@@ -13,6 +13,7 @@ body {
 }
 
 .navbar {
+  border: 5px solid #b36b00;
   background-color: black;
 }
 .navbar .nav-link, .navbar .nav-link:hover,
